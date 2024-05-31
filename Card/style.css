@@ -1,0 +1,51 @@
+.outer_card {
+    width: 300px;
+    height: 400px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+.image1 {
+    width: 95%;
+    height: 70%;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.nav {
+    position: relative;
+    left: 10px;
+}
+
+.b1 {
+    background-color: transparent;
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 15px;
+    color: rgb(134, 134, 134);
+}
+.text{
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+.bdy{
+    position: relative;
+    top: -15px;
+}
+.button{
+    position: relative;
+    padding: 8px;
+    left: 90px;
+    bottom: 35px;
+    color: rgb(13, 87, 236);
+    text-decoration: solid;
+    font-weight: bold;
+    border: 0px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color:rgba(0, 255, 255, 0.286);
+}
