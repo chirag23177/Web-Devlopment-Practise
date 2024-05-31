@@ -48,4 +48,10 @@
     margin-right: auto;
     border-radius: 20px;
     background-color:rgba(0, 255, 255, 0.286);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:rgba(0, 255, 255, 0.934);
+    border: 1px solid rgb(6, 107, 109);
 }
