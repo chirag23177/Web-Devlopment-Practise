@@ -24,7 +24,13 @@
     border: 1px solid rgb(134, 134, 134);
     border-radius: 15px;
     color: rgb(134, 134, 134);
+    cursor: pointer;
 }
+.b1:hover{
+    background-color:rgba(215, 224, 224, 0.934);
+    border: 1px solid rgb(6, 107, 109);
+}
+
 .text{
     position: relative;
     top: -15px;
@@ -54,4 +60,8 @@
 .button:hover{
     background-color:rgba(0, 255, 255, 0.934);
     border: 1px solid rgb(6, 107, 109);
+}
+.main:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
