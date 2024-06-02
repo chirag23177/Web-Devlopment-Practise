@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar styling */
+
+nav ul li {
+    list-style: none;
+    padding: 10px 25px;
+    /* justify-content: space-around; */
+}
+
+nav {
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgba(205, 205, 205, 0.255);
+    background-color: transparent;
+    position: sticky;
+}
+
+nav ul {
+    position: relative;
+    right: -50px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 174.425px;
+    height: 55.9px;
+    position: relative;
+    left: -30px;
+}
