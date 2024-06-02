@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: questrial;
 }
 
 /* Nav bar styling */
@@ -17,13 +18,12 @@ nav {
     justify-content: space-around;
     align-items: center;
     border: 2px solid rgba(205, 205, 205, 0.255);
-    background-color: transparent;
-    position: sticky;
+    background-color:white;
 }
 
 nav ul {
-    position: relative;
-    right: -50px;
+    /* position: relative;
+    right: -50px; */
     display: flex;
     justify-content: space-around;
     cursor: pointer;
@@ -38,6 +38,11 @@ nav ul li{
 .logo {
     width: 174.425px;
     height: 55.9px;
-    position: relative;
-    left: -30px;
+    position: relative; 
+    left: 100px; 
+}
+
+header{
+    position: sticky;
+    top: 0;
 }
