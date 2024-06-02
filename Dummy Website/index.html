@@ -29,15 +29,47 @@
             word-spacing: 3px;
             line-height: 1.5;
         }
-        .button{
+
+        .button {
             padding: 12px 20px;
             font-size: 20px;
             font-weight: 700;
             color: white;
             background-color: rgb(0, 182, 209);
-            border: 2px  white;
+            border: 2px white;
             border-radius: 5px;
         }
+
+        .boxes {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-columns: 300px 300px 300px; */
+            margin: 50px;
+            /* gap: 50px; */
+            justify-items: center;
+            align-items: center;
+
+            /* height: 140vh; */
+            width: 100%;
+            gap: 30px;
+        }
+
+        .box {
+            border: 1px solid black;
+            /* padding: 50px; */
+            height: 150px;
+            width: 300px;
+            /* margin: 28.8px; */
+            padding-top: 28px;
+            
+        }
+
+        /* .box1{
+            border: 1px solid black;
+            padding: 50px;
+            width: 60px;
+            margin: 28.8px;
+        } */
     </style>
 </head>
 
@@ -79,18 +111,33 @@
     </header>
     <main>
         <div class="content">
-            <h1>
-                Download
-                <strong>UltraEdit</strong>
-                for Windows&nbsp;
-                <img class="rating" src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt="rating">
-            </h1>
-            <h3>
-                Download and try UltraEdit before you buy it! This download includes the full Windows <br>version of the text editor.
-            </h3>
-            <button class="button">
-                Download Mac or Linux version
-            </button>
+            <div class="text-part">
+                <h1>
+                    Download
+                    <strong>UltraEdit</strong>
+                    for Windows&nbsp;
+                    <img class="rating" src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png"
+                        alt="rating">
+                </h1>
+                <h3>
+                    Download and try UltraEdit before you buy it! This download includes the full Windows <br>version of
+                    the text editor.
+                </h3>
+                <button class="button">
+                    Download Mac or Linux version
+                </button>
+            </div>
+            <div class="boxes">
+                <div class="box1 box">box1</div>
+                <div class="box2 box">box2</div>
+                <div class="box3 box">box3</div>
+                <div class="box4 box">box4</div>
+                <div class="box5 box">box5</div>
+                <div class="box6 box">box6</div>
+                <div class="box7 box">box7</div>
+                <div class="box8 box">box8</div>
+                <div class="box9 box">box9</div>
+            </div>
         </div>
     </main>
 </body>
