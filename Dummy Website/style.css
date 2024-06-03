@@ -99,7 +99,8 @@ h3 {
 
 .download {
     display: flex;
-    position: relative ;
+    /* position: relative ; */
+    padding-top: 30px;
     top: 30px;
     /* left: 48px; */
     font-family: sans-serif;
