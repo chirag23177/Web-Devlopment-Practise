@@ -52,6 +52,7 @@ header{
     display: block;
     padding: 100px;
     text-align: center;
+    padding-bottom: 0px;
 }
 
 h1 {
@@ -178,4 +179,90 @@ h3 {
     border: 2px white;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* Newsletter Upper */
+
+.newsletter {
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 48px 0px;
+    width: 100%;
+
+}
+.upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    margin-top: 40px;
+    /* padding: 0px 20px; */
+}
+.right-text {
+    width: 600px;
+    padding: 0px 20px;
+    /* border: 1px solid white; */
+    margin-right: -113px;
+}
+.sub-box {
+    width: 400px;
+    /* padding: 0px 20px; */
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    height: auto;
+    background-color: white;
+
+}
+.right-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: center;
+    /* padding-left: 40px; */
+}
+.right-text p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 20px;
+
+}
+.sub-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    /* margin-bottom: 0px; */
+    text-align: center;
+    color: rgb(0, 182, 209);
+    /* padding-left: 40px; */
+}
+.sub-box p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    /* padding: 0px 20px; */
+    color: black;
+}
+.textbox {
+    width: 80%;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    /* border: 5px rgba(226, 2, 2, 0.255); */
+    border: 2px solid rgba(157, 170, 174, 0.255);
+    border-radius: 5px;
+}
+.newsletter-button {
+    width: 86%;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    background-color: rgb(0, 182, 209);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Questrial', sans-serif;
+    box-shadow: 0px 7px 11px rgb(182, 231, 241) ;
 }
