@@ -76,6 +76,7 @@ h3 {
     background-color: rgb(0, 182, 209);
     border: 2px white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -97,13 +98,13 @@ h3 {
 
 .download {
     display: flex;
-    position: relative;
+    position: relative ;
     top: 30px;
-    left: 480px;
+    /* left: 48px; */
     font-family: sans-serif;
     gap: 10px;
     align-items: center;
-    justify-content:left;
+    justify-content:center;
 }
 
 .flex {
@@ -157,7 +158,15 @@ h3 {
     background-color: rgb(0, 182, 209);
     border: 2px white;
     border-radius: 5px;
+    cursor: pointer;
+}
 
+.button-32:hover {
+    background-color: rgb(0, 150, 170);
+}
+
+.button-64:hover {
+    background-color: rgb(56, 151, 56);
 }
 
 .button-64 {
@@ -168,4 +177,5 @@ h3 {
     background-color: rgb(92, 184, 92);
     border: 2px white;
     border-radius: 5px;
+    cursor: pointer;
 }
