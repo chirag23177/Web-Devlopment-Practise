@@ -1,7 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: questrial;
+}
+
+:root {
+    --basic: rgb(0, 182, 209);
 }
 
 /* Nav bar styling */
@@ -18,7 +22,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     border: 2px solid rgba(205, 205, 205, 0.255);
-    background-color:white;
+    background-color: white;
 }
 
 nav ul {
@@ -29,7 +33,7 @@ nav ul {
     cursor: pointer;
 }
 
-nav ul li{
+nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,11 +42,11 @@ nav ul li{
 .logo {
     width: 174.425px;
     height: 55.9px;
-    position: relative; 
-    left: 100px; 
+    position: relative;
+    left: 100px;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
 }
@@ -88,7 +92,7 @@ h3 {
     font-size: 15px;
 }
 
-.big{
+.big {
     font-size: 20px;
     font-weight: 800;
 }
@@ -106,7 +110,7 @@ h3 {
     font-family: sans-serif;
     gap: 10px;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
 .flex {
@@ -192,6 +196,7 @@ h3 {
     width: 100%;
 
 }
+
 .upper {
     display: flex;
     justify-content: center;
@@ -200,12 +205,14 @@ h3 {
     margin-top: 40px;
     /* padding: 0px 20px; */
 }
+
 .right-text {
     width: 600px;
     padding: 0px 20px;
     /* border: 1px solid white; */
     margin-right: -113px;
 }
+
 .sub-box {
     width: 400px;
     /* padding: 0px 20px; */
@@ -217,6 +224,7 @@ h3 {
     background-color: white;
 
 }
+
 .right-text h3 {
     font-size: 24px;
     font-weight: 700;
@@ -224,6 +232,7 @@ h3 {
     text-align: center;
     /* padding-left: 40px; */
 }
+
 .right-text p {
     font-size: 16px;
     font-weight: 400;
@@ -231,6 +240,7 @@ h3 {
     padding: 0px 20px;
 
 }
+
 .sub-box h3 {
     font-size: 24px;
     font-weight: 700;
@@ -239,6 +249,7 @@ h3 {
     color: rgb(0, 182, 209);
     /* padding-left: 40px; */
 }
+
 .sub-box p {
     font-size: 16px;
     font-weight: 400;
@@ -246,6 +257,7 @@ h3 {
     /* padding: 0px 20px; */
     color: black;
 }
+
 .textbox {
     width: 80%;
     padding: 10px 10px;
@@ -254,6 +266,7 @@ h3 {
     border: 2px solid rgba(157, 170, 174, 0.255);
     border-radius: 5px;
 }
+
 .newsletter-button {
     width: 86%;
     padding: 10px 10px;
@@ -265,8 +278,36 @@ h3 {
     font-size: 16px;
     font-weight: 700;
     font-family: 'Questrial', sans-serif;
-    box-shadow: 0px 7px 11px rgb(182, 231, 241) ;
+    box-shadow: 0px 7px 11px rgb(182, 231, 241);
 }
+
 .newsletter-button:hover {
     background-color: rgb(0, 150, 170);
+}
+
+.lower {
+    padding-left: 500px;
+}
+
+.bg {
+    width: 1000px;
+}
+
+.bg h3 {
+    padding-bottom: 10px;
+    font-size: 24px;
+    line-height: 1.3em;
+    display: block;
+    text-align: left;
+}
+
+.bg p {
+    line-height: 1.5em;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.cla {
+    color: var(--basic);
+    cursor: pointer;
 }
