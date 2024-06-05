@@ -11,6 +11,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <style>
 
+        .parts{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+            max-width: 50vw;
+            margin: auto;
+        }
+
+        .part{
+            border: 1px solid black;
+            height: 100px;
+            /* width: 100px; */
+            width: 200px;
+            margin-top: 70px;
+            margin-bottom: 55px;
+        }
+
+        footer{
+            list-style: none;
+        }
+
+        .imm{
+            line-height: 2;
+        }
 
     </style>
 </head>
@@ -178,6 +203,33 @@
         </div>
 
     </main>
+    <footer>
+        <div class="parts">
+            <div class="languages part">
+                <p class="heading">
+                    <strong>
+                        What’s your language?
+                    </strong>
+                </p>
+                <ul class="imm">
+                    <li>Code Editor (General)</li>
+                    <li>Text Editor</li>
+                    <li>Hex/Binary</li>
+                </ul>
+                
+
+            </div>
+            <div class="type part">
+
+            </div>
+            <div class="general part">
+
+            </div>
+            <div class="subs part">
+
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

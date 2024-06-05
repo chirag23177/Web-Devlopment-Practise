@@ -191,7 +191,7 @@ h3 {
 .newsletter {
     display: block;
     color: white;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 48px 0px;
     width: 100%;
 
