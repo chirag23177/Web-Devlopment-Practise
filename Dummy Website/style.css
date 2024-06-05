@@ -299,6 +299,8 @@ h3 {
     line-height: 1.3em;
     display: block;
     text-align: left;
+    position: relative;
+    left: -50px;
 }
 
 .bg p {
