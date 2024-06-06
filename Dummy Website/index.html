@@ -10,33 +10,56 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <style>
-
-        .parts{
+        .parts {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             justify-content: center;
             align-items: center;
             max-width: 50vw;
             margin: auto;
+            font-size: 14px;
+            margin-bottom: 100px;
         }
 
-        .part{
-            border: 1px solid black;
+        .part {
+            /* border: 1px solid black; */
             height: 100px;
             /* width: 100px; */
             width: 200px;
             margin-top: 70px;
-            margin-bottom: 55px;
+            margin-bottom: 200px;
+            line-height: 1.5;
         }
 
-        footer{
+        footer ul li {
             list-style: none;
+            cursor: pointer;
         }
 
-        .imm{
-            line-height: 2;
+        .heading {
+            /* font-size: 1.5rem; */
+            padding-bottom: 10px;
+            font-weight: 600;
+            font-size: 16px;
         }
 
+        .subs {
+            /* line-height: 2; */
+            width: 250px;
+            /* background-color: aqua; */
+        }
+
+        .end{
+            max-width: 50vw;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .end_logo{
+            height: 50px;
+            margin-left: 500px;
+            
+        }
     </style>
 </head>
 
@@ -208,26 +231,80 @@
             <div class="languages part">
                 <p class="heading">
                     <strong>
-                        What’s your language?
+                        What's your language?
                     </strong>
                 </p>
                 <ul class="imm">
                     <li>Code Editor (General)</li>
                     <li>Text Editor</li>
                     <li>Hex/Binary</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Unix shell scripts</li>
+                    <li>PL/SQL</li>
+                    <li>EDI</li>
+                    <li>C++</li>
+                    <li>PHP</li>
+                    <li>XML</li>
+                    <li>Markdown</li>
+                    <li>SAS</li>
+                    <li>Visual Basic (VB)</li>
                 </ul>
-                
+
 
             </div>
             <div class="type part">
-
+                <p class="heading">
+                    <strong>
+                        What type of user are you?
+                    </strong>
+                </p>
+                <ul class="imm">
+                    <li>Programmer / Developer</li>
+                    <li>Web Developer</li>
+                    <li>Database Manager</li>
+                    <li>System Administrator</li>
+                    <li>Technical Writer</li>
+                    <li>Editor / Publisher</li>
+                    <li>Medical / Pharmaceutical</li>
+                </ul>
             </div>
             <div class="general part">
-
+                <p class="heading">
+                    <strong>
+                        General
+                    </strong>
+                </p>
+                <ul class="imm">
+                    <li>Contact</li>
+                    <li>License Agreement (EULA)</li>
+                    <li>End of Life Policy</li>
+                    <li>Libraries and Patents</li>
+                    <li>Information Policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Uninstall Instructions</li>
+                    <li>Sitemap</li>
+                    <li>Legal</li>
+                    <li>Software Security</li>
             </div>
             <div class="subs part">
-
+                <p class="heading">
+                    <strong>
+                        Subscribe to Newsletter
+                    </strong>
+                </p>
+                <p>
+                    <span>
+                        Get the latest news on new releases, event, and developments.
+                    </span>
+                    <form method="post" action="">
+                        <input type="email" placeholder="Type Here" class="textbox">
+                        <button class="newsletter-button">Sign Up</button </form>
             </div>
+        </div>
+        <div class="end">
+            <img class="end_logo" src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="logo">
+            
         </div>
     </footer>
 </body>
