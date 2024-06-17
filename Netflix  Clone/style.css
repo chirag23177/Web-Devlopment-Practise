@@ -7,6 +7,7 @@
     /* fill: red; */
     height: 40px;
     width: 148px;
+    z-index: 10;
     /* background-color: saddlebrown; */
 }
 
@@ -21,15 +22,65 @@
     padding: 24px 0px;
     justify-content: space-around;
     align-items: center;
+    /* z-index: 10; */
 }
 
 .logo_img{      
     margin: 0px;
     margin-left: 16px;
     margin-top: 8px;
+    z-index: 10;
+}
+
+.nav_buttons{
+    z-index: 10;
 }
 
 .Main{
     background-image: url("images/background.png");
-    height: 80vh;
+    height: 90vh;
+    z-index: 0;
+    position: relative;
+}
+
+
+.backgroung{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+
+
+.Language{
+    padding: 6px 36px;
+    /* height: 20px;
+    width: 54.4px   ; */
+}
+
+.Sign_in{
+    padding: 6px 26px;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: 0.8px solid red;
+    
+}
+
+
+.main_content{
+    color: white;
+    z-index: 2;
+    position: relative;
+    text-align: center; /* Optional: center the text */
+    padding-top: 20px; /* Optional: add some padding */
+}
+
+.main_content h1{
+    z-index: 2;
+    position: relative;
 }
